@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 import time
 
 #1 obtengo el listado de archivos
-url=="http://www.rtve.es/alacarta/audios/turbo-3/"
+url = "http://www.rtve.es/alacarta/audios/turbo-3/"
 
-resp = urllib2.urlopen(url2)
+resp = urllib2.urlopen(url)
 soup = BeautifulSoup(resp.read())
 lista=[]
 for link in soup.find_all('a'):
