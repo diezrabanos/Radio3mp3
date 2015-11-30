@@ -5,7 +5,7 @@ import time
 #1 obtengo el listado de archivos
 url = "http://www.rtve.es/alacarta/audios/turbo-3/"
 
-resp = urllib2.urlopen(url)
+resp = urllib2.urlopen(url,'Mozilla/35.0 (Windows; U; Windows NT 5.1; it; rv:1.8.1.11) Gecko/20071127 Firefox/2.0.0.11')
 soup = BeautifulSoup(resp.read())
 lista=[]
 for link in soup.find_all('a'):
