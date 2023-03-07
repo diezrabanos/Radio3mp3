@@ -1,0 +1,3719 @@
+{
+    "version":8,
+    "sprite":"https://vt-btn.idee.es/1.0.0/btn/resources/sprites/sprite",
+    "glyphs":"https://vt-btn.idee.es/1.0.0/btn/resources/fonts/{fontstack}/{range}.pbf",
+    "sources":{
+        "esri":{
+            "type":"vector",
+            "attribution":"IGN - BTN Naturaleza y Paisaje, servicio vector tiles",
+            "bounds":[-180,-85.0511,180,85.0511],
+            "minzoom":0,
+            "maxzoom":16,
+            "scheme":"xyz",
+            "tiles":["https://vt-btn.idee.es/1.0.0/btn/tile/{z}/{y}/{x}.pbf"]
+        }
+    },
+    "layers": [
+        {
+            "id": "btn0107s_zon_pro/01 PARQUE NACIONAL",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 7.6236,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D3FFBE",
+                "fill-outline-color": "#98E600"
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/02 PARQUE",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 7.8866,
+            "layout": {},
+            "paint": {
+                "fill-color": "rgba(184,253,178,0.5)"
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/03 RESERVA NATURAL",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 7.8866,
+            "layout": {},
+            "paint": {
+                "fill-color": "rgba(184,253,178,0.5)"
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/04 ÁREA MARINA PROTEGIDA",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 9.2086,
+            "layout": {},
+            "paint": {
+                "fill-color": "rgba(0,169,230,0.5)"
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/05 MONUMENTO NATURAL",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 11.5305,
+            "layout": {},
+            "paint": {
+                "fill-color": "rgba(184,253,178,0.5)"
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/06 PAISAJE PROTEGIDO",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 11.5305,
+            "layout": {},
+            "paint": {
+                "fill-color": "rgba(184,253,178,0.5)"
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/07 RED NATURA 2000",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+            "minzoom": 9.2086,
+            "layout": {},
+            "paint": {
+                "fill-color": "rgba(184,253,178,0.5)"
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/08 OTROS ESPACIOS NATURALES PROTEGIDOS",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro",
+            "filter": [
+                "==",
+                "_symbol",
+                7
+            ],
+            "minzoom": 11.5305,
+            "layout": {},
+            "paint": {
+                "fill-color": "rgba(184,253,178,0.5)"
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/OTROS",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro",
+            "filter": [
+                "==",
+                "_symbol",
+                8
+            ],
+            "minzoom": 11.5305,
+            "layout": {},
+            "paint": {
+                "fill-color": "#CCCCCC"
+            }
+        },
+        {
+            "id": "btn0207s_discon_s",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "btn0207s_discon_s",
+            "minzoom": 11.5305,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E3F5FF",
+                "fill-outline-color": "#0070FF"
+            }
+        },
+        {
+            "id": "btn0635l_via_pec/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "btn0635l_via_pec",
+            "minzoom": 11.5305,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#B2B2B2",
+                "line-dasharray": [
+                    5,
+                    5
+                ],
+                "line-width": 1.33333,
+                "line-offset": -4
+            }
+        },
+        {
+            "id": "btn0635l_via_pec/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "btn0635l_via_pec",
+            "minzoom": 11.5305,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#B2B2B2",
+                "line-dasharray": [
+                    5,
+                    5
+                ],
+                "line-width": 1.33333,
+                "line-offset": -10.6667
+            }
+        },
+        {
+            "id": "btn0632l_itiner/01 GRAN RECORRIDO/2",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/01 GRAN RECORRIDO/2",
+                "icon-size": {
+                    "stops": [
+                        [
+                            11.5305,
+                            0.4
+                        ],
+                        [
+                            18.1744,
+                            2
+                        ]
+                    ]
+                },
+                "symbol-spacing": 8,
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FF7F7F"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/01 GRAN RECORRIDO/1",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/01 GRAN RECORRIDO/1",
+                "icon-size": {
+                    "stops": [
+                        [
+                            11.5305,
+                            0.4
+                        ],
+                        [
+                            18.1744,
+                            2
+                        ]
+                    ]
+                },
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/01 GRAN RECORRIDO/0",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/01 GRAN RECORRIDO/0",
+                "icon-size": {
+                    "stops": [
+                        [
+                            11.5305,
+                            0.4
+                        ],
+                        [
+                            18.1744,
+                            2
+                        ]
+                    ]
+                },
+                "icon-rotate": -90,
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FF0000"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/02 PEQUEÑO RECORRIDO/2",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/02 PEQUEÑO RECORRIDO/2",
+                "icon-size": {
+                    "stops": [
+                        [
+                            12.5305,
+                            0.4
+                        ],
+                        [
+                            18.1744,
+                            2
+                        ]
+                    ]
+                },
+                "symbol-spacing": 8,
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#E69800"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/02 PEQUEÑO RECORRIDO/1",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/02 PEQUEÑO RECORRIDO/1",
+                "icon-size": {
+                    "stops": [
+                        [
+                            12.5305,
+                            0.4
+                        ],
+                        [
+                            18.1744,
+                            2
+                        ]
+                    ]
+                },
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/02 PEQUEÑO RECORRIDO/0",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/02 PEQUEÑO RECORRIDO/0",
+                "icon-size": {
+                    "stops": [
+                        [
+                            12.5305,
+                            0.4
+                        ],
+                        [
+                            18.1744,
+                            2
+                        ]
+                    ]
+                },
+                "icon-rotate": -90,
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#E69800"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/03 CALZADA ROMANA/2",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/03 CALZADA ROMANA/2",
+                "icon-size": {
+                    "stops": [
+                        [
+                            11.5305,
+                            0.4
+                        ],
+                        [
+                            18.1744,
+                            2
+                        ]
+                    ]
+                },
+                "symbol-spacing": 8,
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#B2B2B2"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/03 CALZADA ROMANA/1",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/03 CALZADA ROMANA/1",
+                "icon-size": {
+                    "stops": [
+                        [
+                            11.5305,
+                            0.4
+                        ],
+                        [
+                            18.1744,
+                            2
+                        ]
+                    ]
+                },
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/03 CALZADA ROMANA/0",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/03 CALZADA ROMANA/0",
+                "icon-size": {
+                    "stops": [
+                        [
+                            11.5305,
+                            0.4
+                        ],
+                        [
+                            18.1744,
+                            2
+                        ]
+                    ]
+                },
+                "icon-rotate": -90,
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#CCCCCC"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/04 CAMINO DE SANTIAGO/2",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 10.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/04 CAMINO DE SANTIAGO/2",
+                "icon-size": {
+                    "stops": [
+                        [
+                            10.5305,
+                            0.444444
+                        ],
+                        [
+                            18.1744,
+                            1.66667
+                        ]
+                    ]
+                },
+                "symbol-spacing": 13.3333,
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#73B2FF"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/04 CAMINO DE SANTIAGO/1",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 10.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/04 CAMINO DE SANTIAGO/1",
+                "icon-size": {
+                    "stops": [
+                        [
+                            10.5305,
+                            0.444444
+                        ],
+                        [
+                            18.1744,
+                            1.66667
+                        ]
+                    ]
+                },
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "viewport",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/04 CAMINO DE SANTIAGO/0",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 10.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/04 CAMINO DE SANTIAGO/0",
+                "icon-size": {
+                    "stops": [
+                        [
+                            10.5305,
+                            0.444444
+                        ],
+                        [
+                            18.1744,
+                            1.66667
+                        ]
+                    ]
+                },
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "viewport",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#004DA8"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/05 VÍA VERDE/2",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/05 VÍA VERDE/2",
+                "icon-size": {
+                    "stops": [
+                        [
+                            11.5305,
+                            0.444444
+                        ],
+                        [
+                            18.1744,
+                            1.11111
+                        ]
+                    ]
+                },
+                "symbol-spacing": 13.3333,
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#D1FF73"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/05 VÍA VERDE/1",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/05 VÍA VERDE/1",
+                "icon-size": {
+                    "stops": [
+                        [
+                            11.5305,
+                            0.444444
+                        ],
+                        [
+                            18.1744,
+                            1.11111
+                        ]
+                    ]
+                },
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "viewport",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/05 VÍA VERDE/0",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/05 VÍA VERDE/0",
+                "icon-size": {
+                    "stops": [
+                        [
+                            11.5305,
+                            0.444444
+                        ],
+                        [
+                            18.1744,
+                            1.11111
+                        ]
+                    ]
+                },
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "viewport",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#267300"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/06 CAMINO DEL CID/2",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/06 CAMINO DEL CID/2",
+                "icon-size": {
+                    "stops": [
+                        [
+                            11.5305,
+                            0.444444
+                        ],
+                        [
+                            18.1744,
+                            1.11111
+                        ]
+                    ]
+                },
+                "symbol-spacing": 13.3333,
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#E1E1E1"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/06 CAMINO DEL CID/1",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/06 CAMINO DEL CID/1",
+                "icon-size": {
+                    "stops": [
+                        [
+                            11.5305,
+                            0.444444
+                        ],
+                        [
+                            18.1744,
+                            1.11111
+                        ]
+                    ]
+                },
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "viewport",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/06 CAMINO DEL CID/0",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/06 CAMINO DEL CID/0",
+                "icon-size": {
+                    "stops": [
+                        [
+                            11.5305,
+                            0.444444
+                        ],
+                        [
+                            18.1744,
+                            1.11111
+                        ]
+                    ]
+                },
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "viewport",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#4E4E4E"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/07 CAMINO NATURAL/2",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/07 CAMINO NATURAL/2",
+                "icon-size": {
+                    "stops": [
+                        [
+                            12.5305,
+                            0.444444
+                        ],
+                        [
+                            18.1744,
+                            1.11111
+                        ]
+                    ]
+                },
+                "symbol-spacing": 13.3333,
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFBEBE"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/07 CAMINO NATURAL/1",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/07 CAMINO NATURAL/1",
+                "icon-size": {
+                    "stops": [
+                        [
+                            12.5305,
+                            0.444444
+                        ],
+                        [
+                            18.1744,
+                            1.11111
+                        ]
+                    ]
+                },
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "viewport",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/07 CAMINO NATURAL/0",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "btn0632l_itiner/07 CAMINO NATURAL/0",
+                "icon-size": {
+                    "stops": [
+                        [
+                            12.5305,
+                            0.444444
+                        ],
+                        [
+                            18.1744,
+                            1.11111
+                        ]
+                    ]
+                },
+                "symbol-spacing": 160,
+                "icon-offset": [
+                    0,
+                    4
+                ],
+                "icon-rotation-alignment": "viewport",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FF0000"
+            }
+        },
+        {
+            "id": "btn0632l_itiner/08 OTROS",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                7
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FEBBB2",
+                "line-dasharray": [
+                    2,
+                    6
+                ],
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "btn0632l_itiner/OTROS",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner",
+            "filter": [
+                "==",
+                "_symbol",
+                8
+            ],
+            "minzoom": 15.8524,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#828282",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "btn0401l_cortaf/01 ESTRECHO",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "btn0401l_cortaf",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 13.5305,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#70A800",
+                "line-width": {
+                    "stops": [
+                        [
+                            13.5305,
+                            0.333333
+                        ],
+                        [
+                            18.1744,
+                            0.666667
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "btn0401l_cortaf/02 ANCHO",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "btn0401l_cortaf",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 13.5305,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#70A800",
+                "line-width": {
+                    "stops": [
+                        [
+                            13.5305,
+                            0.333333
+                        ],
+                        [
+                            18.1744,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "btn0401l_cortaf/OTRO",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "btn0401l_cortaf",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 13.5305,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#828282",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080111 COMARCA GRANDE Y MEDIANA",
+            "type": "circle",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 12.5305,
+            "layout": {},
+            "paint": {
+                "circle-radius": 3.33333,
+                "circle-color": "#A3FF73",
+                "circle-stroke-color": "#000000",
+                "circle-stroke-width": 0
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080116 COMARCA MENOR Y GRAN PARAJE",
+            "type": "circle",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 13.5894,
+            "layout": {},
+            "paint": {
+                "circle-radius": 3.33333,
+                "circle-color": "#A3FF73",
+                "circle-stroke-color": "#000000",
+                "circle-stroke-width": 0
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080214 PARAJE",
+            "type": "circle",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 13.5894,
+            "layout": {},
+            "paint": {
+                "circle-radius": 3.33333,
+                "circle-color": "#A3FF73",
+                "circle-stroke-color": "#000000",
+                "circle-stroke-width": 0
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080322 MAR Y OCÉANO",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                "icon-image": "btn0801p_top_sin_geo_1/080322 MAR Y OCÉANO",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080325 ESTRECHO/GOLFO/BAHÍA PRINCIPAL",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                "icon-image": "btn0801p_top_sin_geo_1/080325 ESTRECHO/GOLFO/BAHÍA PRINCIPAL",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080326 ESTRECHO/GOLFO/BAHÍA MEDIANA",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 13.5894,
+            "layout": {
+                "icon-image": "btn0801p_top_sin_geo_1/080326 ESTRECHO/GOLFO/BAHÍA MEDIANA",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080327 ESTRECHO/GOLFO/BAHÍA PEQUEÑA/CALA/RADA",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+            "minzoom": 14.8524,
+            "layout": {
+                "icon-image": "btn0801p_top_sin_geo_1/080327 ESTRECHO/GOLFO/BAHÍA PEQUEÑA/CALA/RADA",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080328 SALIENTE COSTERO PRINCIPAL",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                7
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                "icon-image": "btn0801p_top_sin_geo_1/080328 SALIENTE COSTERO PRINCIPAL",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#002673"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080329 SALIENTE COSTERO MEDIANO",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                8
+            ],
+            "minzoom": 13.5894,
+            "layout": {
+                "icon-image": "btn0801p_top_sin_geo_1/080329 SALIENTE COSTERO MEDIANO",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#002673"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080330 SALIENTE COSTERO PEQUEÑO",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                9
+            ],
+            "minzoom": 14.8524,
+            "layout": {
+                "icon-image": "btn0801p_top_sin_geo_1/080330 SALIENTE COSTERO PEQUEÑO",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#002673"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080337 PLAYA PRINCIPAL",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                10
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                "icon-image": "btn0801p_top_sin_geo_1/080337 PLAYA PRINCIPAL",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#002673"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080338 PLAYA MEDIANA",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                11
+            ],
+            "minzoom": 13.5894,
+            "layout": {
+                "icon-image": "btn0801p_top_sin_geo_1/080338 PLAYA MEDIANA",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#002673"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080339 PLAYA PEQUEÑA",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                12
+            ],
+            "minzoom": 14.8524,
+            "layout": {
+                "icon-image": "btn0801p_top_sin_geo_1/080339 PLAYA PEQUEÑA",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#002673"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080500 TOPÓNIMO PUNTUAL",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                13
+            ],
+            "minzoom": 13.5894,
+            "layout": {
+                "icon-image": "btn0801p_top_sin_geo_1/080500 TOPÓNIMO PUNTUAL",
+                "icon-size": {
+                    "stops": [
+                        [
+                            13.5894,
+                            0.5
+                        ],
+                        [
+                            18.1744,
+                            1
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FF7F7F"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/080700 TOPÓNIMO PUNTUAL COSTERO",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                14
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "icon-image": "btn0801p_top_sin_geo_1/080700 TOPÓNIMO PUNTUAL COSTERO",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FF7F7F"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/<all other values>",
+            "type": "circle",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_symbol",
+                15
+            ],
+            "minzoom": 11.5305,
+            "layout": {},
+            "paint": {
+                "circle-radius": 2.66667,
+                "circle-color": "rgba(255,0,0,0)",
+                "circle-stroke-color": "rgba(0,0,0,0)",
+                "circle-stroke-width": 0
+            }
+        },
+        {
+            "id": "btn0404p_arbol",
+            "type": "circle",
+            "source": "esri",
+            "source-layer": "btn0404p_arbol",
+            "minzoom": 15.8524,
+            "layout": {},
+            "paint": {
+                "circle-radius": 2.66667,
+                "circle-color": "rgba(255,0,0,0)",
+                "circle-stroke-color": "rgba(0,0,0,0)",
+                "circle-stroke-width": 0
+            }
+        },
+        {
+            "id": "btn0537p_cueva/01 NATURAL",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0537p_cueva",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                "icon-image": "btn0537p_cueva/01 NATURAL",
+                "icon-rotation-alignment": "map",
+                "icon-keep-upright": false,
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0537p_cueva/OTROS",
+            "type": "circle",
+            "source": "esri",
+            "source-layer": "btn0537p_cueva",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 12.5305,
+            "layout": {},
+            "paint": {
+                "circle-radius": 2.2,
+                "circle-color": "#828282",
+                "circle-stroke-color": "#000000",
+                "circle-stroke-width": 0.933333
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/label/08 OTROS ESPACIOS NATURALES PROTEGIDOS",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro/label",
+            "filter": [
+                "==",
+                "_label_class",
+                7
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                
+                "text-size": 11.3333,
+                "text-field": "{_name}",
+                "icon-image": "btn0107s_zon_pro/08 OTROS ESPACIOS NATURALES PROTEGIDOS",
+                "icon-keep-upright": true
+            },
+            "paint": {
+                "text-color": "#267300",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/label/07 RED NATURA 2000",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro/label",
+            "filter": [
+                "==",
+                "_label_class",
+                6
+            ],
+            "minzoom": 9.2086,
+            "layout": {
+               
+                "text-size": 11.3333,
+                "text-field": "{_name}",
+                "icon-image": "btn0107s_zon_pro/07 RED NATURA 2000",
+                "icon-keep-upright": true
+            },
+            "paint": {
+                "text-color": "#267300",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/label/06 PAISAJE PROTEGIDO",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro/label",
+            "filter": [
+                "==",
+                "_label_class",
+                5
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                
+                "text-size": 11.3333,
+                "text-field": "{_name}",
+                "icon-image": "btn0107s_zon_pro/06 PAISAJE PROTEGIDO",
+                "icon-keep-upright": true
+            },
+            "paint": {
+                "text-color": "#267300",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/label/05 MONUMENTO NATURAL",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro/label",
+            "filter": [
+                "==",
+                "_label_class",
+                4
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                
+                "text-size": 11.3333,
+                "text-field": "{_name}",
+                "icon-image": "btn0107s_zon_pro/05 MONUMENTO NATURAL",
+                "icon-keep-upright": true
+            },
+            "paint": {
+                "text-color": "#267300",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/label/04 ÁREA MARINA PROTEGIDA",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro/label",
+            "filter": [
+                "==",
+                "_label_class",
+                3
+            ],
+            "minzoom": 9.2086,
+            "layout": {
+                
+                "text-size": 14,
+                "text-field": "{_name}",
+                "icon-image": "btn0107s_zon_pro/04 ÁREA MARINA PROTEGIDA",
+                "icon-keep-upright": true
+            },
+            "paint": {
+                "text-color": "#002673",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/label/03 RESERVA NATURAL",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro/label",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 9.2086,
+            "layout": {
+                
+                "text-size": 14,
+                "text-field": "{_name}",
+                "icon-image": "btn0107s_zon_pro/03 RESERVA NATURAL",
+                "icon-keep-upright": true
+            },
+            "paint": {
+                "text-color": "#267300",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/label/02 PARQUE",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 7.8866,
+            "layout": {
+                
+                "text-size": 14,
+                "text-field": "{_name}",
+                "icon-image": "btn0107s_zon_pro/02 PARQUE",
+                "icon-keep-upright": true
+            },
+            "paint": {
+                "text-color": "#267300",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "btn0107s_zon_pro/label/01 PARQUE NACIONAL",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0107s_zon_pro/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 7.6236,
+            "layout": {
+                
+                "text-size": 14,
+                "text-field": "{_name}",
+                "icon-image": "btn0107s_zon_pro/01 PARQUE NACIONAL",
+                "icon-keep-upright": true
+            },
+            "paint": {
+                "text-color": "#267300",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "btn0207s_discon_s/label/08.- GLACIAR",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0207s_discon_s/label",
+            "minzoom": 11.5305,
+            "layout": {
+                
+                "text-size": 11.3333,
+                "text-field": "{_name}",
+                "icon-image": "btn0207s_discon_s/08.- GLACIAR",
+                "icon-keep-upright": true
+            },
+            "paint": {
+                "text-color": "#004DA8",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 0.666667
+            }
+        },
+        {
+            "id": "btn0632l_itiner/label/01 GRAN RECORRIDO",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0632l_itiner/label",
+            "minzoom": 11.5305,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 667,
+                
+                "text-size": 11.3333,
+                "text-field": "{_name}",
+                "icon-image": "btn0632l_itiner/01 GRAN RECORRIDO/{_len}",
+                "icon-keep-upright": true,
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/TOPÓNIMO PUNTUAL",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class13",
+                13
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.375
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.6875
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.6875
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.6875
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.28125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1.25
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1.25
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1.25
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.32475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.36504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.36504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.32475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.36504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.36504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.965278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.965737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name13}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#A80000",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/PLAYA PEQUEÑA",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class12",
+                12
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.125
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.03125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.715278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.715737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name12}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#002673"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/PLAYA MEDIANA",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class11",
+                11
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+               
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.125
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.03125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.715278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.715737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name11}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#002673",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/PLAYA PRINCIPAL",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class10",
+                10
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.125
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.03125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.715278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.715737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name10}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#002673",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/SALIENTE COSTERO PEQUEÑO",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class9",
+                9
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.125
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.03125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.715278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.715737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name9}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#002673",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/SALIENTE COSTERO MEDIANO",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class8",
+                8
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.125
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.03125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.715278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.715737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name8}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#002673",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/SALIENTE COSTERO PRINCIPAL",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class7",
+                7
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+                
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.125
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.03125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.715278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.715737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name7}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#002673",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/ESTRECHO/GOLFO/BAHÍA PEQUEÑA/CALA/RADA",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class6",
+                6
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.125
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.03125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.715278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.715737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name6}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#004DA8",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/ESTRECHO/GOLFO/BAHÍA MEDIANA",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class5",
+                5
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+                
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.125
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.03125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.715278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.715737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name5}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#004DA8",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/ESTRECHO/GOLFO/BAHÍA PRINCIPAL",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class4",
+                4
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+               
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.125
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.03125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.715278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.715737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name4}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#004DA8",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/MAR Y OCÉANO",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class3",
+                3
+            ],
+            "minzoom": 11.5305,
+            "layout": {
+               
+                "text-size": 16,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.25
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.458333
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.458333
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.458333
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                0.854167
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                0.833333
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                0.833333
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                0.833333
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                0.883167
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                0.910027
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                0.910027
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                0.883167
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                0.910027
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                0.910027
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.643519
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.643825
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name3}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#004DA8"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/PARAJE",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class2",
+                2
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+               
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.375
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.6875
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.6875
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.6875
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.28125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1.25
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1.25
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1.25
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.32475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.36504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.36504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.32475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.36504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.36504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.965278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.965737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name2}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#267300"
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/COMARCA MENOR Y GRAN PARAJE",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class1",
+                1
+            ],
+            "minzoom": 13.5894,
+            "layout": {
+               
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.125
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.03125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.715278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.715737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name1}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#00734C",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "btn0801p_top_sin_geo_1/label/COMARCA GRANDE Y MEDIANA",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0801p_top_sin_geo_1",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 12.5305,
+            "layout": {
+               
+                "text-size": 10.6667,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.125
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                0,
+                                0.4375
+                            ]
+                        ],
+                        [
+                            3,
+                            [
+                                0,
+                                1.03125
+                            ]
+                        ],
+                        [
+                            4,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            5,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            6,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            7,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            8,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            9,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            10,
+                            [
+                                0,
+                                1.07475
+                            ]
+                        ],
+                        [
+                            11,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            12,
+                            [
+                                0,
+                                1.11504
+                            ]
+                        ],
+                        [
+                            13,
+                            [
+                                0,
+                                0.715278
+                            ]
+                        ],
+                        [
+                            14,
+                            [
+                                0,
+                                0.715737
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#267300",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "btn0404p_arbol/label/Class 1",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0404p_arbol",
+            "minzoom": 15.8524,
+            "layout": {
+               
+                "text-size": 13.3333,
+                "text-anchor": "center",
+                "text-field": "{_name}",
+                "icon-image": "btn0404p_arbol/Class 1",
+                "icon-keep-upright": true
+            },
+            "paint": {
+                "text-color": "#267300",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "btn0537p_cueva/label/Class 1",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "btn0537p_cueva",
+            "minzoom": 15.8524,
+            "layout": {
+                
+                "text-size": 11.3333,
+                "text-anchor": "top",
+                "text-offset": {
+                    "property": "_symbol",
+                    "type": "categorical",
+                    "default": [
+                        0,
+                        0.352941
+                    ],
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                1.53965
+                            ]
+                        ],
+                        [
+                            1,
+                            [
+                                0,
+                                0.629412
+                            ]
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#2D5A4A",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        }
+    ]
+}
